@@ -205,5 +205,5 @@ text-align: center;
  ==============================================================================*/                            
  .row.no-gutters [class*=col-]{
 padding-left: 0px;
-margin-left: 0px;
+padding-right: 0px;
  } 
