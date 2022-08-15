@@ -211,7 +211,7 @@ padding-right: 0px;
     overflow: hidden;
  }
  .img-wrapper img{
-    transition: transform .5 ease;
+    transition: transform .5s ease;
  }
  .img-wrapper img:hover{
     transform: scale(1.5);
