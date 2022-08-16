@@ -207,4 +207,12 @@ text-align: center;
     padding-right: 0;
     padding-left: 0;
  } 
- 
+ .img wrapper {
+
+ }
+ .img-wrapper img{
+    transition: transform.5s;
+ }
+ .img-wrapper img:hover {
+    transform:  scale(1.5);
+ }
