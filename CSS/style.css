@@ -204,8 +204,8 @@ text-align: center;
                       work                                                   
  ==============================================================================*/                            
  .row .no-gutters [class*=col-]{
-padding-left: 0px;
-padding-right:0px;
+padding-left: 0;
+padding-right:0;
 margin:10px ;
  } 
  .img-wrapper{
