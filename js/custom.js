@@ -6,16 +6,16 @@ $( function() {
 // Animate on scroll
 new WOW().init();
 }); 
-$(function() {
+
     // alert("i am insan");
 /*===================================================================
                      work
 ======================================================================*/
+$(function() {
     $("#work").magnificPopup({
         delegate:'a',
         type:'image',
-        gallery:{
-            enabled:true
+        gallery:{   enabled:true
     }
 });
 });
@@ -24,13 +24,12 @@ $(function() {
 ======================================================================*/
 
 $(function(){
-
     $("#team-members").owlCarousel({
         item:3,
         autoplay:true,
         smartSpeed:700,
         loop:true,
+        autoplayHoverPause :true,
     });
-    
   });
 
