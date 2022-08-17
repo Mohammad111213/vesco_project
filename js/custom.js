@@ -6,4 +6,31 @@ $( function() {
 // Animate on scroll
 new WOW().init();
 }); 
+$(function() {
+    // alert("i am insan");
+/*===================================================================
+                     work
+======================================================================*/
+    $("#work").magnificPopup({
+        delegate:'a',
+        type:'image',
+        gallery:{
+            enabled:true
+    }
+});
+});
+/*===================================================================
+                     team
+======================================================================*/
+
+$(function(){
+
+    $("#team-members").owlCarousel({
+        item:3,
+        autoplay:true,
+        smartSpeed:700,
+        loop:true,
+    });
+    
+  });
 
