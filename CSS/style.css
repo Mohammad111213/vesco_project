@@ -130,6 +130,9 @@ animation-duration: .5s;
     text-align: center;
     margin: 0 0 30px 0;
 }
+.content-title h3{
+    color: #fff;
+}
 .content-title-underline{
 width: 30px;
 height: 3px;
@@ -269,4 +272,27 @@ color:#34c6d3 ;
  /*============================================================================
                     Testinomials                                                  
  ==============================================================================*/
- 
+ #testimonial-cover{
+    background-image: url("../media/bg-testimonials.jpg");
+ }
+ #customers .content-box{
+    background-color: rgb(0,0,0,0.1);
+ }
+
+ #customers-testimonials{
+    padding: 50px 0;
+ }
+ .testimonial img{
+max-width: 120px;
+margin: 0 auto 0 auto;
+ }
+ .testimonial blockquote{
+    border:0px;
+    font-family: georgia,sans-serif;
+    font-style: italic;
+    color: #fff;
+    padding:  6px 150px;
+ }
+ .testimonial  blockquote p{
+    color: #fff;
+ }
