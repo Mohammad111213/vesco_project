@@ -1,7 +1,8 @@
 /*=================================================================
                        Services
  ==================================================================*/     
-//import .js.WOW           
+//import .js.WOW  
+
 $( function() {
 // Animate on scroll
 new WOW().init();
@@ -11,6 +12,7 @@ new WOW().init();
 /*===================================================================
                      work
 ======================================================================*/
+
 $(function() {
     $("#work").magnificPopup({
         delegate:'a',
@@ -19,13 +21,15 @@ $(function() {
     }
 });
 });
+
+
 /*===================================================================
                      team
 ======================================================================*/
 
-$(function(){
+$(function() {
     $("#team-members").owlCarousel({
-        item:3,
+        
         autoplay:true,
         smartSpeed:700,
         loop:true,
@@ -33,18 +37,24 @@ $(function(){
     });
   });
 
+
  /*=======================================================================
                   Testimonials
 =========================================================================*/
 
-$(function(){
+
+$(function() {
+
     $("#customers-testimonials").owlCarousel({
-        item:1,
         autoplay:true,
         smartSpeed:700,
         loop:true,
-        autoplayHoverPause :true
+        items:1,
+        autoplayHoverPause:true,
     });
   });
 
+
+
+  
 

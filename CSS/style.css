@@ -131,7 +131,7 @@ animation-duration: .5s;
     margin: 0 0 30px 0;
 }
 .content-title h3{
-    color: #fff;
+    color: #41464b;
 }
 .content-title-underline{
 width: 30px;
@@ -272,6 +272,9 @@ color:#34c6d3 ;
  /*============================================================================
                     Testinomials                                                  
  ==============================================================================*/
+ .content-box .what{
+    color: #fff;
+ }
  #testimonial-cover{
     background-image: url("../media/bg-testimonials.jpg");
  }
@@ -295,4 +298,68 @@ margin: 0 auto 0 auto;
  }
  .testimonial  blockquote p{
     color: #fff;
+ }
+.testimonial  blockquote::before,
+.testimonial  blockquote::after{
+   font-size: 80px;
+   width:30px;
+   height: 30px;
+   line-height: 1;
+   font-style: normal;
+   position: absolute;
+    }
+ .testimonial  blockquote::before{
+    content:"\201C";
+    left: 100px;
+    top: 0px;
+ }
+.testimonial  blockquote::after{
+    content:"\201D";
+    right:100px;
+    bottom: 0;
+ }
+ .testimonial-author p{
+  font-size: 17px;
+  color: #fff;
+ }
+ .testimonial-author p strong{
+    display: block;;
+ }
+ /*============================================================================
+                    Pircing                                                  
+ ==============================================================================*/
+ .pircing-box{
+    padding: 50px 0;
+    border: 3px solid #34c6d3;
+    margin: 40px 0;
+    min-height: 500px;
+ }
+ h4.pircing-title{
+    background-color: #34c6d3;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 15px ;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+     margin: 0 0 30px 0;
+ }
+ h3.pircing-value{
+    font-weight: 700;
+    font-size: 60px;
+ }
+ h3.pircing-value sup{
+    font-size: 28px;
+    font-weight: normal;
+    vertical-align: super; 
+ }
+ ul .pircing-spec {
+    list-style : none;
+    padding-left: 0;
+    margin: 20px 0 60px 0;
+   }
+  
+ ul.pircing-spec li p{
+    text-transform: uppercase;
+    font-weight: 400;
  }
