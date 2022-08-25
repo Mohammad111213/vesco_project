@@ -266,9 +266,13 @@ font-size: 17px;
  .icon-gray i{
     color: #64707b; 
  }
+ .icon-white i{
+   color: #fff;
+ }
  .social-icon i:hover{
 color:#34c6d3 ;
  }
+ 
  /*============================================================================
                     Testinomials                                                  
  ==============================================================================*/
@@ -344,6 +348,11 @@ margin: 0 auto 0 auto;
     text-transform: uppercase;
      margin: 0 0 30px 0;
  }
+ ul.pricing-spec {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0 60px 0;
+   }
  h3.pircing-value{
     font-weight: 700;
     font-size: 60px;
@@ -353,13 +362,169 @@ margin: 0 auto 0 auto;
     font-weight: normal;
     vertical-align: super; 
  }
- ul .pircing-spec {
-    list-style : none;
-    padding-left: 0;
-    margin: 20px 0 60px 0;
-   }
   
  ul.pircing-spec li p{
     text-transform: uppercase;
     font-weight: 400;
+ }
+ .pircing-box-lg{
+    padding: 90px 0;
+    margin: 0;
+    background-color:#34c6d3;
+    height: 600px;
+ }
+ .pircing-box-lg h4.pircing-title{
+    color: #34c6d3;
+    background-color: #fff;
+ }
+ .pircing-box-lg ul.pircing-spec li p{
+    color: #fff;
+ }
+ /*============================================================================
+                    stats                                                 
+ ==============================================================================*/
+ #stats-cover{
+    background-image: url("../media/bg-stats.jpg");
+ }
+ #stats .content-box{
+    background-color: rgb(0,0,0,.8);
+ }
+ .stats-item{
+ padding:100px 0;
+ }
+ #stats .content-box h3{
+   color: #fff;
+ }
+ .stats-item i{
+    color: #34c6d3;
+ }
+ .stats-item h2{
+    color:#fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+ }
+ .stats-item p{
+    color: #fff;
+    text-transform:uppercase;
+    margin-top:0;
+    font-weight: 300;
+ }
+  /*============================================================================
+                    clients                                               
+ ==============================================================================*/
+ .client{
+    padding: 40px 0;
+ }
+  /*============================================================================
+                    contact                                             
+ ==============================================================================*/
+footer{
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px rgb(0,0,0,0.1);
+ }
+ #contact-left h3, #contact-right h3{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+ }
+ #contact-left p{
+    color:#fff;
+    margin-bottom: 30px;
+ }
+ #contact-info{
+    background-image: url(" ../media/world-map.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ address{
+ color: #fff;
+ }
+ address strong, 
+ #phone-fax-email strong{
+   letter-spacing: 1px;
+ }
+ form .form-control{
+     background: transparent;
+   border-radius: 0;
+   border-color: #fff;
+   font-size: 17px;
+   font-weight: 700;
+   padding: 8px 16px;
+   margin-bottom: 20px;
+   color: #fff;
+ }
+ #contact-left .social-list{
+   float: left;
+ }
+  /*============================================================================
+                    Footer                                           
+ ==============================================================================*/
+#footer-copyrights p{
+color: #fff;
+margin: 0px;
+}
+#footer-menu{
+   font-size: 17px;
+   font-weight: 300;
+   float:left;
+   color: #fff;
+}
+#footer-menu ul{
+   font-style: none;
+   padding-left: 0;
+   margin: 0;
+}
+#footer-menu ul li{
+   display: inline-block;
+}
+#footer-menu a {
+   color: #ffff;
+   font-weight: 300;
+   font-size: 16px;
+   margin:  0 10px;
+   text-decoration: none;
+}
+#footer-menu a:hover{
+   color: #34c6d3;
+}
+ /*============================================================================
+                    Navigation                                         
+ ==============================================================================*/
+ .navbar{
+   padding: 0 20px;
+ }
+ .vesco-top-nav{
+   background:rgb(0,0,0,0.7) ;
+   padding: 7px 0;
+ }
+ .vesco-nav-wrapper{
+   padding: 0 85px;
+ }
+ .navbar-nav{
+   float: right;
+ }
+ .navbar-nav > li > a{
+   color:#fff;
+   font-size: 15px;
+   text-transform: uppercase;
+   letter-spacing:1px;
+   font-weight: 700;
+ }
+ .navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
+   background: none;
+   color: #34c6d3;
+ }
+ .navbar-toggle{
+   background-color: rgb(0,0,0,.1);
+   border:1px solid #fff;
+   border-radius: 0;
+ }
+ .navbar-toggle .icon-bar{
+   background-color: #fff;
+ }
+ .navbar-collapse{
+   max-height: none!important;
  }

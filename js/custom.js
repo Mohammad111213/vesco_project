@@ -29,11 +29,11 @@ $(function() {
 
 $(function() {
     $("#team-members").owlCarousel({
-        
+        items:3,
         autoplay:true,
         smartSpeed:700,
         loop:true,
-        autoplayHoverPause :true,
+        autoplayHoverPause :true
     });
   });
 
@@ -50,11 +50,37 @@ $(function() {
         smartSpeed:700,
         loop:true,
         items:1,
-        autoplayHoverPause:true,
+        autoplayHoverPause:true
     });
   });
 
 
+ /*=======================================================================
+                  stats
+=========================================================================*/
 
-  
+
+$(function(){
+    $('.counter') .counterUp({
+       
+        delay: 10,
+        time: 2000
+    });
+});
+
+
+ /*=======================================================================
+                  clients
+=========================================================================*/
+
+$(function() {
+
+    $("#clients-list").owl-carousel({
+        autoplay:true,
+        smartSpeed:700,
+        loop:true,
+        items:3,
+        autoplayHoverPause:true
+    });
+  });
 
