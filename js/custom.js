@@ -12,7 +12,7 @@ new WOW().init();
 /*===================================================================
                      work
 ======================================================================*/
-
+// anonmous functions
 $(function() {
     $("#work").magnificPopup({
         delegate:'a',
@@ -75,12 +75,47 @@ $(function(){
 
 $(function() {
 
-    $("#clients-list").owl-carousel({
+    $("#clients-list").owlCarousel({
         autoplay:true,
-        smartSpeed:700,
+        smartSpeed:300,
         loop:true,
-        items:3,
+        items:6,
         autoplayHoverPause:true
     });
   });
 
+   /*=======================================================================
+                  navigation
+=========================================================================*/
+
+  $(function(){
+
+     $(window).scroll(function(){
+ 
+        if($(this).scrollTop()  <  50 )   {
+            //hide nav
+            $("nav").removeclass("vesco-top-nav ");
+            // $("#back-to-top").fadeout();
+
+        }
+        else {
+            //show nav
+            $("nav").addclass("vesco-top-nav ");
+            // $("#back-to-top").fadein();
+       } 
+  });
+});
+ /*=======================================================================
+                  smooth-scroll
+=========================================================================*/
+$(function(){
+
+$("a.smooth-scroll").click(function(event){
+    event.preventDefualt();
+    var section =$(this).attr("href");
+    $('html,body').animate({
+      scrollTop: $(section).offset().top - 64
+   },1250, "easeInOutExpo");
+
+});
+});
