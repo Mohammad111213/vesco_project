@@ -1,18 +1,41 @@
-@media(min-width:1200px){
+/*screen for large devices*/
+@media (min-width:1200px){
     
     
-   #home-headiing h3{
-color:blue;
+    
+
 
 
 }
-}
-@media(min-width:992px)and (min-width:1199px){
+
+/*screen for medium devices*/
+@media (min-width:992px)and(max-width:1199px){
+
+.navbar{
+     background-color: rgba( 0,0,0, .7);
+     padding: 0;
+     }
+     .navbar{
+        float:left;
+     }
+ 
+ }
+ /*screen for small devices*/
+ @media (min-width:778px)and(max-width:991px){
     
     
-    #home-headiing h3{
- color:yellow;
+    #home-heading h3{
+ color:white;
  
  
  }
  }
+ @media (max-width:776px){
+
+ }
+ @media (max-width:480px){
+    
+}
+@media (max-width:320px){
+    
+}

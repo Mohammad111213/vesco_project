@@ -42,7 +42,6 @@ $(function() {
                   Testimonials
 =========================================================================*/
 
-
 $(function() {
 
     $("#customers-testimonials").owlCarousel({
@@ -94,14 +93,14 @@ $(function() {
  
         if($(this).scrollTop()  <  50 )   {
             //hide nav
-            $("nav").removeclass("vesco-top-nav ");
-            // $("#back-to-top").fadeout();
+            $("nav").removeclass("vesco-top-nav");
+            $("#back-to-top").fadeout();
 
         }
         else {
             //show nav
-            $("nav").addclass("vesco-top-nav ");
-            // $("#back-to-top").fadein();
+            $("nav").addclass("vesco-top-nav");
+            $("#back-to-top").fadein();
        } 
   });
 });
@@ -119,3 +118,4 @@ $("a.smooth-scroll").click(function(event){
 
 });
 });
+var num1=2; var num2=3; var sum=num1=num2;console.log(sum);
