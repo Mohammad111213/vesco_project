@@ -33,7 +33,7 @@ h3{
 }
 #home-cover{
     background-image:url('../media/home-bg.jpeg');
-     height: 100%;
+     height:100%;
     /* background-size: cover;    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed; */
@@ -525,7 +525,7 @@ margin: 0px;
    letter-spacing:1px;
    font-weight: 700;
  }
- .navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
+ .navbar-nav>li>a:hover,.navbar-nav>li>a:focus{
    background: none;
    color: #34c6d3;
  }
@@ -540,6 +540,6 @@ margin: 0px;
  .navbar-collapse{
    max-height: none!important;
  }
- .vesco-top-nav ul.navbar-nav > li.active a{
+ .vesco-top-nav ul.navbar-nav>li.active a{
    color: #34c6d3;
  }
